@@ -578,6 +578,6 @@ Aceasta a implicat instalarea dependențelor, preluarea sursei, verificarea aces
 
 Dacă v-a plăcut acest ghid detaliat pas cu pas, vă rog să îl partajați pe rețelele de socializare, forumuri, chat-uri etc. pentru ca utilizatorii de GNU/Linux să afle de acest ghid.
 
-# Actualizare articol
+# Sugestii pentru articol
 
-**Pentru actualizarea sau corectarea articol-ului se poate face în [GitHub](https://github.com/thinkroot99/articole-linux). Mulțumesc**
+**Sugestiile pentru actualizarea sau corectarea articol-ului se poate face în [GitHub](https://github.com/thinkroot99/articole-linux). Mulțumesc**
