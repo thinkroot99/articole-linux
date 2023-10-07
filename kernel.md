@@ -580,4 +580,4 @@ Dacă v-a plăcut acest ghid detaliat pas cu pas, vă rog să îl partajați pe 
 
 # Sugestii pentru articol
 
-**Sugestiile pentru actualizarea sau corectarea articol-ului se poate face în [GitHub](https://github.com/thinkroot99/articole-linux). Mulțumesc**
+**Sugestiile pentru actualizarea sau corectarea articol-ului se pot face pe [GitHub](https://github.com/thinkroot99/articole-linux). Mulțumesc**

@@ -11,7 +11,7 @@ La fel ca orice alt sistem de operare, precum **Windows** sau **macOS**, Linux g
 
 # Ce este linia de comandă în Linux?
 
-O linie de comandă este o interfață care vă permite să introduceți și să executați comenzi Linux care indică sistemului de operare ce acțiuni să efectueze. O interfață de linie de comandă este furnizată de un terminal sau de un emulator de terminal, cum ar fi `GNOME Terminal`, `Konsole` și `xterm`.
+O linie de comandă este o interfață care vă permite să introduceți și să executați comenzi Linux care indică sistemului de operare ce acțiuni să efectueze. O interfață de linie de comandă este furnizată de un terminal sau de un emulator de terminal, cum ar fi `GNOME Terminal`, `Konsole` sau `xterm`.
 
 Lucrul în linia de comandă este modalitatea ideală de administrare a unui sistem Linux, în special atunci când se lucrează cu un server headless sau cu un sistem minimalist (un sistem Linux care nu oferă o interfață grafică).
 
@@ -21,7 +21,7 @@ Lucrul în linia de comandă este modalitatea ideală de administrare a unui sis
 
 În centrul fiecărui sistem Linux se află nucleul. Nucleul este ceea ce diferențiază Linux de alte sistem de operare. Este componenta centrală a sistemului de operare și acționează ca o punte de legătură între aplicațiile la nivel de utilizator și componentele hardware de bază.
 
-Acesta permite comunicarea dintre programe si hardware-ul fizic de bază. Nucleul gestionează toate procesele care rulează, memoria, fișierele și așă mai departe. Pe scurt, nucleul se ocupă de următoarele:
+Acesta permite comunicarea dintre programe si hardware-ul fizic de bază. Nucleul gestionează toate procesele care rulează, memoria, fișierele și așa mai departe. Pe scurt, nucleul se ocupă de următoarele:
 
 - **Gestionarea memoriei** - Nucleul ține evidența utilizării memoriei de către diferitele aplicații din sistem.
 - **Gestionarea dispozitivelor** - De asemenea, gestionează diverse dispozitive care sunt conectate la sistem, cum ar fi dispozitivele de intrare și ieșire.
@@ -30,13 +30,13 @@ Acesta permite comunicarea dintre programe si hardware-ul fizic de bază. Nucleu
 
 După cum am menționat anterior, nucleul se află chiar în miljocul proceselor utilizatorului și al hardware-ului de bază, care cuprinde memoria RAM, procesorul, dispozitivele de I/O, stocarea, grafica și rețeaua.
 
-În afară de nucleu, sistemul de operare Linxu include și alte componente esențiale, cum ar fi instrumentele GNU, utilitățile de sistem, aplicațiile instalate și multe altele. Toate acestea, reunite împreună, constituie un sistem de operare funcțional.
+În afară de nucleu, sistemul de operare Linux include și alte componente esențiale, cum ar fi instrumentele GNU, utilitățile de sistem, aplicațiile instalate și multe altele. Toate acestea, reunite împreună, constituie un sistem de operare funcțional.
 
 # Ce este un mediu de lucru în Linux?
 
-Un mediu de lucru este o colecție de componente care oferă o interfață grafică pentru utilizatori și care permite utilizatorilor să interacționeze fără probleme cu sistemul de operare. Aceste curpinde elemente grafice, cum ar fi pictograme, meniuri, ferestre, bare de activități, imagini de fundal, widget-uri și panouri, pentru a menționa doar câteva.
+Un mediu de lucru este o colecție de componente care oferă o interfață grafică pentru utilizatori și care permite utilizatorilor să interacționeze fără probleme cu sistemul de operare. Această colecție de componente curpinde elemente grafice, cum ar fi pictograme, meniuri, ferestre, bare de activități, imagini de fundal, widget-uri și panouri, pentru a menționa doar câteva.
 
-În distribuțiile moderne de Linux cu interfață grafică, cum ar fi Debian, Ubuntu, Fedora, Rocky și AlmaLinux, un mediu de lucru este oferit implicit. Acesta a îmbunătățit interacțiunea cu utilizatorul și permite utilizatorilor să gestioneze cu ușurință sistemul, spre deosebire de interfața de linie de comandă, a cărei utilizare necesită un sete de competențe ridicate.
+În distribuțiile moderne de Linux cu interfață grafică, cum ar fi Debian, Ubuntu, Fedora, Rocky și AlmaLinux, un mediu de lucru este oferit implicit. Acesta a îmbunătățit interacțiunea cu utilizatorul și permite utilizatorilor să gestioneze cu ușurință sistemul, spre deosebire de interfața de linie de comandă, a cărei utilizare necesită un set de competențe ridicate.
 
 Printre exemplele de medii de lucru populare se numără GNOME, Cinnamon, KDE Plasma, MATE, Deepin, Xfce, LXDE și LXQt.
 
@@ -44,9 +44,9 @@ Printre exemplele de medii de lucru populare se numără GNOME, Cinnamon, KDE Pl
 
 # Linux și Open Source
 
- Linux este un sistem de operare liber și cu sursă deschisă, care a fost lansat initial pentru publicul larg în 1991. În prezent, acesta se află sub Licența Publică Generală GNU (GPL). Open sSource implică faptul că oricine poate studia, modifica și redistribui codul sursă, cu conîția să facă acest lucru în conformitate cu termenii licenție GNU GPL.
+ Linux este un sistem de operare liber și cu sursă deschisă, care a fost lansat inițial pentru publicul larg în 1991. În prezent, acesta se află sub Licența Publică Generală GNU (GPL). Open Source implică faptul că oricine poate studia, modifica și redistribui codul sursă, cu condiția să facă acest lucru în conformitate cu termenii licenței GNU GPL.
 
-De-a lungul timpului, Linux a crescut cu pași repezi și adevenit unul dintre cele mai mari proiecte open source din lume. A cucerit inimile profesioniștilor IT, ale iubitorilor de calculatoare și ale pasionaților din întreaga lume.
+De-a lungul timpului, Linux a crescut cu pași repezi și a devenit unul dintre cele mai mari proiecte open source din lume. A cucerit inimile profesioniștilor IT, ale iubitorilor de calculatoare și ale pasionaților din întreaga lume.
 
 Se bucură de o comunitate largă de dezvoltatori dinamici și neobosiți care contribuie la nucleu, caută și repară defectele, adaugă noi caracteristici și dezvoltă idei noi, împărtășind în același timp punctele de vedere și opiniile lor cu comunitatea.
 
