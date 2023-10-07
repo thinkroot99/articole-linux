@@ -15,7 +15,7 @@ O linie de comandă este o interfață care vă permite să introduceți și să
 
 Lucrul în linia de comandă este modalitatea ideală de administrare a unui sistem Linux, în special atunci când se lucrează cu un server headless sau cu un sistem minimalist (un sistem Linux care nu oferă o interfață grafică).
 
-> ![Interfața liniei de comandă Linux](img/Interfața-liniei-de-comandă-Linux.webp)
+> ![Interfața liniei de comandă Linux](img/Interfata-liniei-de-comanda-Linux.webp)
 
 # Cum funcționează Linux?
 
@@ -40,7 +40,7 @@ Un mediu de lucru este o colecție de componente care oferă o interfață grafi
 
 Printre exemplele de medii de lucru populare se numără GNOME, Cinnamon, KDE Plasma, MATE, Deepin, Xfce, LXDE și LXQt.
 
-> ![Deepin Desktop](img/Deepin-Desktop.webp)
+> ![Deepin](img/Deepin.webp)
 
 # Linux și Open Source
 
