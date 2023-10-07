@@ -1,4 +1,5 @@
-# Ce este și cum funcționează Linux?
+% Ce este și cum funcționează Linux?
+% ThinkRoot99
 
 În acest articol, vom explora conceptul de Linux și unele dintre atributele și componentele asociate sistemului de operare Linux.
 
