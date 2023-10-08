@@ -99,6 +99,6 @@ Aceasta a fost o scurtă introducere în Linux. Am abordat subiecte secundare es
 
 Fie că sunteți începător sau un administrator de sistem sau inginer experimentat, există o distribuție pentru fiecare.
 
-## Sugestii pentru articol
+# Sugestii pentru articol
 
 **Sugestiile pentru actualizarea sau corectarea articol-ului se pot face pe [GitHub](https://github.com/thinkroot99/articole-linux). Mulțumesc**
