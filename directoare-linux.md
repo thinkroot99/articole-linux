@@ -1,5 +1,5 @@
 % Explicarea structurii directoarelor Linux și căilor fișierelor importante
-% by ThinkRoot99
+% ThinkRoot99
 
 **Pe scurt: Acest articol oferă o prezentare a sistemului de fișiere / structurii de directoare din Linux, a unora dintre fișierele critice, a modului de utilizare și a locația acestora.**
 

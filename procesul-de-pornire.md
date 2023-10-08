@@ -1,5 +1,5 @@
 % Un ghid de bază pentru procesul de pornire Linux
-% by ThinkRoot99
+% ThinkRoot99
 
 De fiecare dată când porniți calculatorul cu Linux, acesta trece printr-o serie de etape înainte de a afișa în cele din urmă un ecran de conectare care vă solicită numele de utilizator sau parola.
 

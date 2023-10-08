@@ -1,5 +1,5 @@
 % Ghidul debutantului pentru Linux - Începeți să învățați Linux în câteva minute
-% by ThinkRoot99
+% ThinkRoot99
 
 Bine ați venit la ediția exclusivă a „Ghidul debutantului pentru Linux” de ThinkRoot99, acest modul de curs este special conceput și compilat pentru novici, care doresc să își croiască drum în procesul de învățare a Linux-ului și să se descurce cel mai bine în organizațiile IT de astăzi.
 
