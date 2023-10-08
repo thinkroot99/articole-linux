@@ -23,3 +23,4 @@ Acest curs este în prezent compatibil cu cele mai recente versiuni ale distribu
 
 - [Ce este și cum funcționează Linux?](linux.html)
 - [Un ghid de bază pentru procesul de pornire Linux](procesul-de-pornire.html)
+- [Explicarea structurii directoarelor Linux și căilor fișierelor importante](directoare-linux.html)
