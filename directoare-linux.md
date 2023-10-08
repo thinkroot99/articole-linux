@@ -1,7 +1,7 @@
 % Explicarea structurii directoarelor Linux și căilor fișierelor importante
 % by ThinkRoot99
 
-**Pe scurt: Acest articol oferă o prezentare a sistemului de fișiere din Linux/structurii de directoare, a unora dintre fișierele critice, a modului de utilizare și a locației acestora.**
+**Pe scurt: Acest articol oferă o prezentare a sistemului de fișiere / structurii de directoare din Linux, a unora dintre fișierele critice, a modului de utilizare și a locația acestora.**
 
 Probabil că ați auzit că în UNIX și în derivatele UNIX, cum ar fi Linux, totul este considerat un fișier. Dacă nu este un fișier, atunci trebuie să fie un proces în execuție.
 
@@ -13,7 +13,7 @@ Există trei categorii mari de fișiere în Linux.
 
 # Diagrama structurii directoarelor Linux
 
-O distribuție Linux standard urmează structura directoarrelor, așă cum este prezentată mai jos, cu o diagramă și explicații.
+O distribuție Linux standard urmează structura directoarelor, așa cum este prezentată mai jos cu o diagramă și explicații.
 
 > ![Diagrama structurii directoarelor](img/diagrama-structurii-directoarelor.webp)
 
@@ -23,13 +23,13 @@ Mai jos este descrierea pe scurt a destinației fiecărui director, vom începe 
 
 ### Directorul /
 
-Direcotrul root, notat cu o singură bară oblică (`/`), este cel mai înalt director din structura directoarelor Linux. Acesta conține toate directoarele, subdirectoarele și fișierele de pe sistemul Linux. De la directorul root începe ierarhia directoarelor Linux.
+Directorul root, notat cu o singură bară oblică (`/`), este cel mai înalt director din structura directoarelor Linux. Acesta conține toate directoarele, subdirectoarele și fișierele de pe sistemul Linux. De la directorul root începe ierarhia directoarelor Linux.
 
 > Notă: Directorul root (`/`) nu trebuie confundat cu directorul principal (`/root`).
 
 ### Directorul /boot
 
-Acesta este unul dintre cele mai importante directoare dintr-un sistem Linux. După cum sugerează numele, directorul de boot conține fișierele de boot pentru Linux, cum ar fi încărcătorul de pornire (bootloader), nucleul și fișierele asociate acestuia. Fișiere precum `vmlinuz` reprezintă imaginea comprimată a nucleului Linux.
+Acesta este unul dintre cele mai importante directoare dintr-un sistem Linux. După cum sugerează numele, directorul boot conține fișierele de pornire pentru Linux, cum ar fi încărcătorul de pornire (bootloader), nucleul și fișierele asociate acestuia. Fișiere precum `vmlinuz` reprezintă imaginea comprimată a nucleului Linux.
 
 ### Directorul /etc
 
@@ -39,7 +39,7 @@ Directorul **/etc** conține fișiere de configurare a sistemului pentru toate s
 
 Directorul **/home** este un director care conține directoarele și fișierele personale ale unui utilizator. Pe un sistem grafic, directorul home conține, în mod implicit, dosare precum Desktop, Documents, Downloads, Pictures, Video și Public.
 
-În plus, directorul **/home** conține fișiere de configurare personală care sunt marcate cu un punct (`.`) în fața numelui. Aceste fișiere ascunse care conțin setări specifice utilizatorului pentru sesiunea de conectare la shell.
+În plus, directorul **/home** conține fișiere de configurare personală care sunt marcate cu un punct (`.`) în fața numelui. Aceste fișiere ascunse conțin setări specifice utilizatorului pentru sesiunea de conectare la shell.
 
 ### Directorul /root
 
@@ -57,7 +57,7 @@ De exemplu, atunci cănd instalați aplicații precum Skype, Discord, Spotify ș
 
 Directorul **/dev** conține fișiere de dispozitiv sau fișiere speciale pentru dispozitivele care sunt atașate la sistem, cum ar fi unitatea hard disk, tastatura sau mouse-ul. După cum s-a menționat, nu sunt fișiere obișnuite pe care utilizatorul le poate citi sau scrie.
 
-Acestea sunt abstracții ale dispozitivelor standard cu care interacționează aplicațiile de pe sistem prin intermediul apelurilor de sistem de instrare și ieșire.
+Acestea sunt abstracții ale dispozitivelor standard cu care interacționează aplicațiile de pe sistem prin intermediul apelurilor de sistem de intrare și ieșire.
 
 ### Directorul /var
 
@@ -65,11 +65,11 @@ Directorul **/var** stochează fișierele variabile generate de sistem, care inc
 
 ### Directorul /bin
 
-Directorul **/bin** conține fișiere binare pentru utilizator, programe executabile și comenzi de sistem comune care sunt utilizate de toți utilizaotrii sistemului. Printre acestea se numără ls, pwd, cat, mkdir, cd, mv, cp, du, df, tat, rpm, wc, history, etc.
+Directorul **/bin** conține fișiere binare pentru utilizator, programe executabile și comenzi de sistem comune care sunt utilizate de toți utilizatorii sistemului. Printre acestea se numără ls, pwd, cat, mkdir, cd, mv, cp, du, df, tat, rpm, wc, history, etc.
 
 ### Directorul /sbin
 
-Directorul **/sbin** conține fișierele executabile, utilitare și comenzi de sistem care sunt rezervat utilizatorului root sau unui utilizator cu privilegii root. Astfel de comenzi sunt: hatl, reboot, mkfs, fsck, fdisk, iptables, ifconfig, ip, swapon, etc.
+Directorul **/sbin** conține fișierele executabile, utilitare și comenzi de sistem care sunt rezervate utilizatorului root sau unui utilizator cu privilegii root. Astfel de comenzi sunt: halt, reboot, mkfs, fsck, fdisk, iptables, ifconfig, ip, swapon, etc.
 
 ### Directorul /usr
 
@@ -95,17 +95,17 @@ Directorul **/media** este un director în care sistemul montează mediile deta�
 
 ### Directorul /run
 
-Directorul **/run** este un sistem de fișiere temporar care conține date volatile de execuție, care arată datele de funcționare ale sistemului de când a fost inițiat. Fișierele din directorul **/run** trebuie să fie șterse (eliminate sau trunchiat, dupa caz) la începutul procesului de pornire.
+Directorul **/run** este un sistem de fișiere temporar care conține date volatile de execuție, care arată datele de funcționare ale sistemului de când a fost inițiat. Fișierele din directorul **/run** trebuie să fie șterse (eliminate sau trunchiat, după caz) la începutul procesului de pornire.
 
 ### Directorul /tmp
 
 Directorul **/tmp** este un director care stochează fișiere temporare și multe programe folosesc acest director pentru a crea fișiere de blocare și pentru a păstra stocarea temporară a datelor.
 
-Nu ștergeți fișierele din directorul **/tmp** decât dacă știți exact ce faceți! Multe dintre acesste fișiere sunt critice pentru programele care rulează în prezent și eliminarea lor poate afecta sistemul.
+Nu ștergeți fișierele din directorul **/tmp** decât dacă știți exact ce faceți! Multe dintre aceste fișiere sunt critice pentru programele care rulează în prezent și eliminarea lor poate afecta sistemul.
 
 ### Directorul /lib
 
-Directorul **/libe** stochează toate bibliotecile standard esențiale necesare pentru binarele tilizatorului din directorul **/bin**.
+Directorul **/lib** stochează toate bibliotecile standard esențiale necesare pentru binarele utilizatorului din directorul **/bin**.
 
 ### Directorul /lost+found
 
@@ -113,31 +113,31 @@ Directorul **/lost+found** este instalat în timpul instalării sistemului Linux
 
 ### Directorul /srv
 
-Directorul **/srv** este directorul de servicii și este prescurtate „***srv***”. Acest director conține fișiere specifice serverului și fișiere legate de servicii.
+Directorul **/srv** este directorul de servicii și este prescurtat „***srv***”. Acest director conține fișiere specifice serverului și fișiere legate de servicii.
 
 # Explorarea fișierelor importante, locația și capacitatea de utilizare a acestora
 
 Linux este un sistem complex care necesită o modalitate mai complexă și mai eficientă de a **porni**, **opri**, **înreține** și **reporni** un sistem, spre deosebire de Windows. În Linux există un **fișier de configurare** bine definit, **fișiere binare**, **pagini de manual**, **fișiere cu informații** etc. pentru fiecare **proces**.
 
-Pe lângă directoarele principale, mai există o listă cu unele dintre fișierele și directoarele importante și cu utilizările acestora.
+Pe lângă directoarele principale, mai jos există o listă cu unele dintre fișierele și directoarele importante și utilizările acestora.
 
 - **/boot/vmlinuz**: Fișierul nucleului Linux.
 - **/dev/hda**: Fișier de dispozitiv pentru primul HDD IDE (Hard Disk Drive).
 - **/dev/hdc**: Fișier de dispozitiv pentru CDROM IDE, de obicei.
 - **/dev/sda**: Fișier de dispozitiv pentru prima unitate SATA (Hard Disk Drive).
-- **/dev/null**: Un pseudo-dispozitiv, care nu există. Uneori, ieșirea gunoiului este redirecționată către **/dev/null**, astfel încât se pierde, pentru totdeauna.
+- **/dev/null**: Un pseudo-dispozitiv, care nu există. Uneori, ieșirea gunoiului este redirecționată către **/dev/null**, astfel încât se pierde pentru totdeauna.
 - **/etc/bashrc**: Acest fișier conține valori implicite, funcții și alias-uri la nivelul întregului sistem, printre alte fișiere care sunt utilizate de toți utilizatorii sistemului.
 - **/etc/crontab**: Acesta este un fișier la nivel de sistem care este formatat în mod unic pentru a programa sau automatiza sarcinile de sistem pe un sistem Linux.
 - **/etc/exports**: Este un fișier care determină ce sisteme de fișiere sunt exportate către gazde la distanță și specifică opțiunile.
 - **/etc/fstab**: Acesta este un fișier special care conține informații despre toate punctele de montare disponibile și opțiunile pentru punctele de montare. Fiecare linie din acest fișier oferă șase opțiuni, fiecare dintre acestea denotă informații despre un punct de montare sau un sistem de fișiere.
-- **/etc/hosts**: Acesta este un fișier de configurare care mapează numele de gazdă ale sistemului cu adresele IP corespunzătoare.
+- **/etc/hosts**: Acesta este un fișier de configurare care mapează numele de gazdă al sistemului cu adresele IP corespunzătoare.
 - **/etc/hosts.allow**: Acest fișier specifică ce gazde au permisiunea de a se conecta la sistemul local.
-- **/etc/hosts.deny**: Fișierul specifică gazdele cârora li se refuză accesul și serviciile pe mașina locală.
+- **/etc/hosts.deny**: Fișierul specifică gazdele cărora li se refuză accesul și serviciile pe mașina locală.
 - **/etc/issue**: Conține un mesaj de pre-login.
 - **/etc/modules**: Acest fișier conține numele modulelor de nucleu care trebuie încărcate la pornire, câte unul pe linie.
 - **/etc/motd**: motd reprezintă mesajul zilei, mesajul pe care utilizatorii îl primesc la conectare.
-- **/etc/mtab**: Un fișier numai pentru citire care conține o listă a sistemelor de fișiere montate în prezent.
-- **/etc/passwd**: Un fișier care conține informații despre utilizatorul sistemului, cum ar fi numele de utilizator, UID,GID și shell-ul de conectare, printre altele.
+- **/etc/mtab**: mtab este un fișier numai pentru citire care conține o listă a sistemelor de fișiere montate în prezent.
+- **/etc/passwd**: Este un fișier care conține informații despre utilizatorul sistemului, cum ar fi numele de utilizator, UID, GID și shell-ul de conectare, printre altele.
 - **/etc/printcap**: Conține informații despre imprimante care sunt generate de fișierul **/etc/cups/printers.conf**.
 - **/etc/profile**: Conține mediul de sistem Linux și alte scripturi de pornire.
 - **/etc/profile.d**: Script de aplicație, executat după autentificare.
@@ -145,19 +145,19 @@ Pe lângă directoarele principale, mai există o listă cu unele dintre fișier
 - **/etc/rc.d/init.d**: Script de inițializare a nivelului de execuție.
 - **/etc/resolv.conf**: Acesta este un fișier de rezolvare a DNS. Acesta specifică modul în care sistemul utilizează DNS pentru a rezolva numele de gazdă.
 - **/etc/security**: Conține fișiere de configurare pentru diverse module PAM.
-- **/etc/skel**: Acesta este un director care conține un set de fișiere de configurare a utilizatorilor care sunt copiate în directorul de origine a utilizatorului atunci când este creeat un utilizator.
-- **/etc/X11**: Acesta este un director care conține fișiere de configurare pentru sistemul X-windows.
-- **/usr/bin**: Comenzi executabile normale de utilizator.
-- **/usr/bin/X11**: Acest director conține directoare și binare pentru sistmeul X-windows, care se îmbină la infinit.
-- **/usr/include**: Acest director conține fișiere de antet (header files) pentru comilatoare C. Acesta include `stdio.h`, `stdlib.h` și `string.h`, printre altele.
-- **/usr/share**: Directoare partajate de fișiere man (man files), fișiere de informații (info files), etc.
-- **/usr/lib**: Acest director este format din fișiere și directoare de obiecte (object files).
+- **/etc/skel**: Acesta este un director care conține un set de fișiere de configurare a utilizatorilor care sunt copiate în directorul de origine a utilizatorului atunci când este creat un utilizator.
+- **/etc/X11**: Acesta este un director care conține fișiere de configurare pentru sistemul X-window.
+- **/usr/bin**: Conține comenzi executabile normale de utilizator.
+- **/usr/bin/X11**: Acest director conține directoare și binare pentru sistemul X-window, care se îmbină la infinit.
+- **/usr/include**: Acest director conține fișiere de antet (header files) pentru compilatoarele C. Acesta include `stdio.h`, `stdlib.h` și `string.h`, printre altele.
+- **/usr/share**: Directoare partajate care conțin fișiere man (man files), fișiere de informații (info files), etc.
+- **/usr/lib**: Acest director este format din fișiere și directoare obiecte (object files).
 - **/usr/sbin**: Directorul conține binare cu privilegii de superutilizator sau pentru administrarea sistemului.
 - **/proc/cpuinfo**: Fișierul conține informații despre sistem, inclusiv modeul CPU, numele modelului, numărul de nuclee și viteza ceasului, pentru a menționa câteva fișiere.
 - **/proc/interrupts**: Informații despre întreruperile utilizate în prezent.
 - **/proc/ioports**: Fișierul conține toate adresele de intrare/ieșire utilizate de dispozitivele de pe server.
 - **/proc/meminfo**: Fișier care stochează informații despre utilizarea memoriei, inclusiv informații despre swap.
-- **/proc/modules**: Un fișier care listează toate modulele utilizate de nucleul.
+- **/proc/modules**: Un fișier care listează toate modulele utilizate de nucleu.
 - **/proc/mount**: Fișier care conține informații detaliate despre sistemul de fișiere montate.
 - **/proc/stat**: Fișierul conține informații detaliate despre activitatea sistemului și a nucleului.
 - **/proc/swap**: Fișierul conține informații despre fișierul swap.
