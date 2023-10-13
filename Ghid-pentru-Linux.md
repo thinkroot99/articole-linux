@@ -24,3 +24,4 @@ Acest curs este în prezent compatibil cu cele mai recente versiuni ale distribu
 - [Ce este și cum funcționează Linux?](linux.html)
 - [Un ghid de bază pentru procesul de pornire din Linux](procesul-de-pornire.html)
 - [Explicarea structurii directoarelor și căilor fișierelor importante din Linux](directoare-linux.html)
+- [Cum să descărcați și să instalați gratuit RHEL 9](rhel.html)
