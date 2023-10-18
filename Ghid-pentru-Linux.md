@@ -25,3 +25,4 @@ Acest curs este în prezent compatibil cu cele mai recente versiuni ale distribu
 - [Un ghid de bază pentru procesul de pornire din Linux](procesul-de-pornire.html)
 - [Explicarea structurii directoarelor și căilor fișierelor importante din Linux](directoare-linux.html)
 - [Cum să descărcați și să instalați gratuit RHEL 9](rhel.html)
+- [Cum se instalează VirtualBox 7.0 pe distribuțiile bazate pe RHEL și Debian](virtualbox.html)
